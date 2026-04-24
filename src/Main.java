@@ -64,5 +64,7 @@ public class Main {
         System.out.println("Check string equals: " + str2 == str3);
         System.out.println("Check string equals: " +  (str2.equals(str3)));
 
+        System.out.println("1st commit in featurebranch feature2 -> sout Trolololo_o!");
+
     }//<--up to here
 }
