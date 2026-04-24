@@ -53,16 +53,20 @@ public class MainScanner {
                 result -= sc10.nextInt();
         }
 
-        System.out.println("---------------------------------");
-        System.out.printf("%-20s | %10s%n" ,"Name" , "Alter" );
-        System.out.println("---------------------------------");
-        System.out.printf("%-20s | %10s%n" ,name10 , alter10 );
-        System.out.println("---------------------------------");
+        printInTable(name10, alter10);
 
         System.out.println("Favourite Saying: "  + saying10);
 
         System.out.println("Result of "+op10+" ~ing all Integers: "+ result);
 
         sc10.close();
+    }
+
+    private static void printInTable(String name10, int alter10) {
+        System.out.println("---------------------------------");
+        System.out.printf("%-20s | %10s%n" ,"Name" , "Alter" );
+        System.out.println("---------------------------------");
+        System.out.printf("%-20s | %10s%n" , name10, alter10);
+        System.out.println("---------------------------------");
     }
 }
